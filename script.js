@@ -1,10 +1,3 @@
-No HTML
-
-<input type="date" name="Nasc" id="Nasc" required title="Digite uma data até o dia de hoje" onfocus = "setData()">
-
-
-NO JS
-
 function setData(){
     var hoje = new Date();
     var dia = hoje.getDate();
